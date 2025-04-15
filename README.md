@@ -16,7 +16,7 @@ HealthGenie is an intelligent chatbot that leverages vector search (FAISS), Lang
 ## ⚙️ Setting Up with Pipenv
 
 ### 🔧 Prerequisite
-Install [Pipenv](https://pipenv.pypa.io/en/latest/):
+Install [Pipenv](https://pipenv.pypa.io/en/latest/)
 
 
 
