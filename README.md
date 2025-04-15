@@ -13,57 +13,48 @@ HealthGenie is an intelligent chatbot that leverages vector search (FAISS), Lang
 
 ---
 
-
-## ⚙️ Setting Up Your Environment with Pipenv
+## ⚙️ Setting Up with Pipenv
 
 ### 🔧 Prerequisite
-
-Install [Pipenv](https://pipenv.pypa.io/en/latest/) if you don't have it already:
-
-
-pip install pipenv
-
-pipenv install langchain langchain_community langchain_huggingface faiss-cpu pypdf
-
-pipenv install huggingface_hub
-
-pipenv install streamlit
+Install [Pipenv](https://pipenv.pypa.io/en/latest/):
 
 
-Then activate your virtual environment: pipenv shell
+
+Install dependencies:
+
+```bash pip install pipenv ```
 
 
-If you're using a cloned repo and see a Pipfile.lock, simply run: pipenv install
+```bash pipenv install langchain langchain_community langchain_huggingface faiss-cpu pypdf huggingface_hub streamlit ```
 
-🔐 Set Up Your API Key
-Create a .env file in your root directory:
+Activate the virtual environment:```bash pipenv shell ```
+
+If using a cloned repo, run: ```bash pipenv install ```
+
+🔐 Set Up API Key
+Create a .env file with: ```bash HF_TOKEN=your_huggingface_token_here ```
+
+## 🧠 How to Use
+
+Build the memory index
+
+Launch the chatbot: ```bash streamlit run medibot.py ```
 
 
-HF_TOKEN=your_huggingface_token_here
+## 🛠️ Future Ideas
+
+- Support for OpenAI, Cohere, or Anthropic models
+- Expand Streamlit UI
+- Integrate speech-to-text
+- Add live medical databases
 
 
-🧠 How to Use
-Build the memory index (only once or whenever your data updates):
-
-
-Launch the chatbot: streamlit run medibot.py
-
-
-🛠️ Future Ideas
-
-Add support for OpenAI, Cohere, or Anthropic models
-
-Expand Streamlit UI features
-
-Integrate speech-to-text for voice queries
-
-Include live medical databases or knowledge bases
-
-📄 License
-MIT License — feel free to use, modify, and share. Just give proper credit when sharing publicly.
+## 📄 License: MIT License
 
 🙌 Contributions
-Open to pull requests, improvements, or ideas! If it helps people, it's worth contributing.
+
+Feel free to contribute! 
+Contact me : mohammedtayyab242@gmail.com
 
 
 ## 🛠️ Tech Stack
@@ -80,4 +71,3 @@ Open to pull requests, improvements, or ideas! If it helps people, it's worth co
 | **Secrets Mgmt** | Python `dotenv` (`.env`)                  | Keep your API tokens and secrets safe        |
 
 
-Contact me : mohammedtayyab242@gmail.com
