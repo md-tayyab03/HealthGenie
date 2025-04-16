@@ -32,7 +32,8 @@ def load_llm(huggingface_repo_id):
         task="text-generation",
         temperature = 0.5,
         model_kwargs = {"token":HF_TOKEN,
-                        "max_length":512})
+                        "max_length":512,
+                        "device": "cpu"})
     return llm
 
 #Step - 2: Connect LLM with FAISS and create Chain

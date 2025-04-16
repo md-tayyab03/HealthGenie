@@ -15,46 +15,17 @@ HealthGenie is an intelligent chatbot that leverages vector search (FAISS), Lang
 
 ## ⚙️ Setting Up with Pipenv
 
-### 🔧 Prerequisite
-Install [Pipenv](https://pipenv.pypa.io/en/latest/)
+Clone the repo and Install dependencies:
 
+``` pip install pipenv ```
+``` pipenv install langchain langchain_community langchain_huggingface``` 
+``` pipenv install faiss-cpu pypdf huggingface_hub streamlit ```
 
+Activate the virtual environment:``` pipenv shell ```
 
-Install dependencies:
+Set Up API Key Create a .env file with: ``` HF_TOKEN=your_huggingface_token_here ```
 
-```bash pip install pipenv ```
-
-
-```bash pipenv install langchain langchain_community langchain_huggingface faiss-cpu pypdf huggingface_hub streamlit ```
-
-Activate the virtual environment:```bash pipenv shell ```
-
-If using a cloned repo, run: ```bash pipenv install ```
-
-🔐 Set Up API Key
-Create a .env file with: ```bash HF_TOKEN=your_huggingface_token_here ```
-
-## 🧠 How to Use
-
-Build the memory index
-
-Launch the chatbot: ```bash streamlit run medibot.py ```
-
-
-## 🛠️ Future Ideas
-
-- Support for OpenAI, Cohere, or Anthropic models
-- Expand Streamlit UI
-- Integrate speech-to-text
-- Add live medical databases
-
-
-## 📄 License: MIT License
-
-🙌 Contributions
-
-Feel free to contribute! 
-Contact me : mohammedtayyab242@gmail.com
+Run the project : ``` streamlit run medibot.py ```
 
 
 ## 🛠️ Tech Stack
@@ -70,4 +41,10 @@ Contact me : mohammedtayyab242@gmail.com
 | **UI (optional)**| Streamlit                                 | Simple frontend to interact with the bot     |
 | **Secrets Mgmt** | Python `dotenv` (`.env`)                  | Keep your API tokens and secrets safe        |
 
+
+
+🙌 Contributions
+
+Feel free to contribute! 
+Contact me : mohammedtayyab242@gmail.com
 
