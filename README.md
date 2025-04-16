@@ -28,14 +28,14 @@ HealthGenie is an AI-powered chatbot that answers medical-related questions in a
 
 ## **🛠️ Tech Stack**
 
-Python
-Pipenv                                    
-LangChain                                 
-FAISS                                     
-Hugging Face Transformers + `sentence-transformers` 
-PyPDF
-Streamlit                                 
-Python `dotenv` (`.env`)                  
+- Python
+- Pipenv                                    
+- LangChain                                 
+- FAISS                                     
+- Hugging Face Transformers + `sentence-transformers` 
+- PyPDF
+- Streamlit                                 
+- Python `dotenv` (`.env`)                  
 
 
 Feel free to **🙌 Contribute**,
