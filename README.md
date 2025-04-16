@@ -4,7 +4,7 @@ HealthGenie is an AI-powered chatbot that answers medical-related questions in a
 
 ---
 
-## **Features**
+## **💡Highlights**
 
 - Context-aware medical Q&A  
 - Fast semantic search using FAISS  
@@ -13,7 +13,7 @@ HealthGenie is an AI-powered chatbot that answers medical-related questions in a
 
 ---
 
-## **Setting Up with Pipenv**
+## **⚙️ Environment Setup with Pipenv**
 
 - Clone the repository & Install Pipenv: `pip install pipenv`
 - Install dependencies: 
