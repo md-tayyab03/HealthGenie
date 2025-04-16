@@ -38,6 +38,6 @@ Streamlit
 Python `dotenv` (`.env`)                  
 
 
-Feel free to **🙌 Contribute**
+Feel free to **🙌 Contribute**,
 Contact me : **mohammedtayyab242@gmail.com**
 
