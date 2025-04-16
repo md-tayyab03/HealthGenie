@@ -62,16 +62,16 @@ Question:
 
 Provide your answer using the following detailed and structured format:
 
-1. **Comprehensive Answer to the Question**  
+1. **Comprehensive Answer to the Question: **  
    Begin with a clear, thorough, and complete answer. Address all parts of the question and provide depth, avoiding overly brief or vague statements.
 
-2. **Step-by-Step Explanation / Reasoning**  
+2. **Step-by-Step Explanation / Reasoning: **  
    Break down the reasoning, logic, or process used to arrive at the answer. Explain each step clearly, especially if the question involves analysis, interpretation, or problem-solving.
 
-3. **Supporting Evidence or References**  
+3. **Supporting Evidence or References: **  
    Cite specific parts of the context that support the answer. If applicable, include any in-text evidence, quotes, or references that were crucial to the conclusion.
 
-4. **Additional Insights or Clarifications (if needed)**  
+4. **Additional Insights or Clarifications (if needed): **  
    Add any extra helpful information—such as implications, definitions, alternative interpretations, or important related points that provide more clarity or depth.
 
 Make sure the entire response is:
